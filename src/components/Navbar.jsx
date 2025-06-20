@@ -24,7 +24,7 @@ const Navbar = () => {
               Projects
             </NavLink>
             <NavLink 
-              to="/leetcode" 
+              to="https://leetcode.com/u/ag083519/" 
               className={({ isActive }) => 
                 `hover:text-accent transition-colors ${isActive ? 'text-accent font-medium' : 'text-gray-300'}`
               }
@@ -32,7 +32,7 @@ const Navbar = () => {
               LeetCode
             </NavLink>
             <NavLink 
-              to="/gfg" 
+              to="https://www.geeksforgeeks.org/user/ag083dc0n/" 
               className={({ isActive }) => 
                 `hover:text-accent transition-colors ${isActive ? 'text-accent font-medium' : 'text-gray-300'}`
               }
@@ -40,7 +40,7 @@ const Navbar = () => {
               GFG
             </NavLink>
             <NavLink 
-              to="/github" 
+              to="https://github.com/Anujcodecraft" 
               className={({ isActive }) => 
                 `hover:text-accent transition-colors ${isActive ? 'text-accent font-medium' : 'text-gray-300'}`
               }
@@ -48,7 +48,7 @@ const Navbar = () => {
               GitHub
             </NavLink>
             <NavLink 
-              to="/linkedin" 
+              to="https://www.linkedin.com/in/anuj-gautam-277a64257/" 
               className={({ isActive }) => 
                 `hover:text-accent transition-colors ${isActive ? 'text-accent font-medium' : 'text-gray-300'}`
               }

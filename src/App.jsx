@@ -5,10 +5,7 @@ import Hero from "./components/Hero";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 import SocialLink from "./components/SocialLink";
-import Leetcode from "./pages/Leetcode";
-import Gfg from "./pages/GFG";
-import Github from "./pages/Github";
-import LinkedIn from "./pages/LinkedIN";
+
 
 function App() {
   return (
@@ -28,10 +25,7 @@ function App() {
           />
           <Route path="/Project" element={<Project />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/leetcode" element={<Leetcode />} />
-          <Route path="/gfg" element={<Gfg />} />
-          <Route path="/github" element={<Github />} />
-          <Route path="/linkedin" element={<LinkedIn />} />
+         
           <Route 
             path="/projects" 
             element={
