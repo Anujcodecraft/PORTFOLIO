@@ -83,7 +83,7 @@ const Hero = () => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  const skills = ['React', 'Node.js', 'Python', 'MongoDB', 'JavaScript', 'AI/ML'];
+  const skills = ['React', 'Node.js', 'Python', 'MongoDB', 'JavaScript'];
 
   return (
     <section className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
