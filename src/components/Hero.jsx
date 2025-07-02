@@ -16,7 +16,7 @@
 //             Full Stack Developer | Problem Solver | Tech Enthusiast
 //           </h2>
 
-//           <p className="text-lg text-gray-400 mb-12 leading-relaxed">
+//           <p className="text-lg text-black mb-12 leading-relaxed">
 //             I love turning ideas into real-world solutions through code. Whether it's building web apps or solving complex problems, I enjoy crafting clean and impactful software.
 //           </p>
 
