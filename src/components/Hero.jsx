@@ -177,7 +177,7 @@ const Hero = () => {
 
           {/* Enhanced description with subtle animations */}
           <div className={`transform transition-all duration-1000 delay-500 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <p className="text-lg md:text-xl text-gray-400 mb-12 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-black mb-12 leading-relaxed max-w-3xl mx-auto">
               I love turning ideas into 
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 font-semibold"> real-world solutions </span>
               through code. Whether it's building web apps or solving complex problems, I enjoy crafting 
